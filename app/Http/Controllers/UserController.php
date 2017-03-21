@@ -48,7 +48,7 @@ class UserController extends Controller
           'nick' => 'required|max:50',
           'edad' => 'required',
         ]);
-        //comentario
+        
         //$datos= request()->all();
         Usuario::create([
           'nombre'=>$request['nombre'],
